@@ -98,5 +98,39 @@ r2 = r2_score(y, y_pred)
 
 # Menampilkan akurasi
 print(f'Nilai R^2 adalah: {r2}')
+
+# Visualisasi data
+plt.scatter(X, y, color='blue', label='Data latih')
+plt.plot(X, y_pred, color='red', label='Model Linear Regression')
+plt.xlabel('Pengalaman')
+plt.ylabel('Pendapatan')
+plt.legend()
+plt.show()
 ```
+
+## 3. Penjelasan kode program
+
+Saya akan menjelaskan setiap baris kode program dengan sesederhana
+mungkin.
+
+1. Pada baris 1–4, saya mengimpor module-module yang diperlukan, dalam
+hal ini NumPy untuk merepresentasikan data dalam bentuk matriks,
+Matplotlib untuk visualisasi data, dan Scikit-learn untuk membuat model
+dan mendapatkan hasil akurasi.
+2. Lalu, 2 baris selanjutnya adalah menambahkan data berdasarkan data
+yang telah kita pelajari sebelumnya.
+3. Baris 7 kita menginisialisasi model Linear Regression-nya, dan pada baris
+8 kita melatih modelnya dengan method ```fit()```, di mana kita memasukkan
+parameter X dan y.
+4. Pada baris 9, kita perlu memprediksi dengan data sebelumnya, yang di mana hasil
+prediksi ini akan menghasilkan nilai variabel dependen baru. Nah, nantinya, nilai baru
+ini akan dibandingkan dengan nilai sebenarnya (nilai variabel dependen yang asli) untuk
+mendapatkan akurasinya.
+5. Pada baris 10, karena kita perlu tahu akurasi dari model, kita perlu menggunakan salah satu metode
+pengukur akurasi, yaitu koefisien determinasi atau $$R^2$$ (dibaca: r squared), di mana
+semakin angkanya mendekati angka 1, maka semakin bagus akurasi modelnya. Di baris selanjutnya,
+akan ditampilkan hasil dari nilai $$R^2$$-nya. Perlu dicatat bahwa jika ingin mendapatkan hasilnya,
+silakan berikan komentar terlebih dahulu pada 6 baris terakhir dengan tanda pagar (#)
+6. 6 baris terakhir merupakan kode yang digunakan untuk menghasilkan visualisasi, dari mulai
+data latih (dengan scatter), hingga garis modelnya.
 
