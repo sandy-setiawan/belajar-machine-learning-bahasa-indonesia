@@ -30,3 +30,7 @@ plt.xlabel('Pengalaman')
 plt.ylabel('Pendapatan')
 plt.legend()
 plt.show()
+
+# Prediksi dengan data baru
+X_new = np.array([12, 9]).reshape(-1, 1)
+print(model.predict(X_new))

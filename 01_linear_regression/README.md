@@ -106,6 +106,10 @@ plt.xlabel('Pengalaman')
 plt.ylabel('Pendapatan')
 plt.legend()
 plt.show()
+
+# Prediksi dengan data baru
+X_new = np.array([12, 9]).reshape(-1, 1)
+print(model.predict(X_new))
 ```
 
 ## 3. Penjelasan kode program
@@ -131,6 +135,7 @@ pengukur akurasi, yaitu koefisien determinasi atau $$R^2$$ (dibaca: r squared), 
 semakin angkanya mendekati angka 1, maka semakin bagus akurasi modelnya. Di baris selanjutnya,
 akan ditampilkan hasil dari nilai $$R^2$$-nya. Perlu dicatat bahwa jika ingin mendapatkan hasilnya,
 silakan berikan komentar terlebih dahulu pada 6 baris terakhir dengan tanda pagar (#)
-6. 6 baris terakhir merupakan kode yang digunakan untuk menghasilkan visualisasi, dari mulai
+6. Baris 12–17 merupakan kode yang digunakan untuk menghasilkan visualisasi, dari mulai
 data latih (dengan scatter), hingga garis modelnya.
-
+7. Selanjutnya, pada tahap akhir kita dapat melakukan prediksi dengan data baru, di mana data baru tersebut akan disubstitusikan
+ke persamaan regresi yang baru.
