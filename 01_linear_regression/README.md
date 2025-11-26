@@ -102,6 +102,7 @@ print(f'Nilai R^2 adalah: {r2}')
 # Visualisasi data
 plt.scatter(X, y, color='blue', label='Data latih')
 plt.plot(X, y_pred, color='red', label='Model Linear Regression')
+plt.title('Hasil Model Linear Regression')
 plt.xlabel('Pengalaman')
 plt.ylabel('Pendapatan')
 plt.legend()
@@ -135,7 +136,7 @@ pengukur akurasi, yaitu koefisien determinasi atau $$R^2$$ (dibaca: r squared), 
 semakin angkanya mendekati angka 1, maka semakin bagus akurasi modelnya. Di baris selanjutnya,
 akan ditampilkan hasil dari nilai $$R^2$$-nya. Perlu dicatat bahwa jika ingin mendapatkan hasilnya,
 silakan berikan komentar terlebih dahulu pada 6 baris terakhir dengan tanda pagar (#)
-6. Baris 12–17 merupakan kode yang digunakan untuk menghasilkan visualisasi, dari mulai
+6. Baris 12–18 merupakan kode yang digunakan untuk menghasilkan visualisasi, dari mulai
 data latih (dengan scatter), hingga garis modelnya.
 7. Selanjutnya, pada tahap akhir kita dapat melakukan prediksi dengan data baru, di mana data baru tersebut akan disubstitusikan
 ke persamaan regresi yang baru.

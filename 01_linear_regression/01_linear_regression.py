@@ -26,6 +26,7 @@ print(f'Nilai R^2 adalah: {r2}')
 # Visualisasi data
 plt.scatter(X, y, color='blue', label='Data latih')
 plt.plot(X, y_pred, color='red', label='Model Linear Regression')
+plt.title('Hasil Model Linear Regression')
 plt.xlabel('Pengalaman')
 plt.ylabel('Pendapatan')
 plt.legend()
