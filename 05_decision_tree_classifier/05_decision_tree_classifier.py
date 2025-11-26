@@ -32,9 +32,9 @@ train_report = classification_report(y_train, y_train_pred)
 test_report = classification_report(y_test, y_test_pred)
 
 # Menampilkan kedua report
-print(train_report)
+print(f'Training Report:\n{train_report}')
 print()
-print(test_report)
+print(f'Test Report:\n{test_report}')
 
 # Menampilkan visualisasi model
 plt.figure(figsize=(20, 10))

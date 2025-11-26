@@ -85,9 +85,9 @@ test_report = classification_report(y_test, y_test_pred)
 5. Langkah kelima, kita akan menampilkan report dari kedua uji.
 ```
 # Menampilkan kedua report
-print(train_report)
+print(f'Training Report:\n{train_report}')
 print()
-print(test_report)
+print(f'Test Report:\n{test_report}')
 ```
 
 6. Langkah terakhir, kalian bisa menampilkan visualisasi Decision Tree Classifier-nya dengan method ```plot_tree()```.
@@ -101,7 +101,7 @@ plt.show()
 
 Dengan begitu, kalian akan mendapatkan output sebagai berikut:
 
-<img src='tree_report_result.jpg'>
+<img src='tree_report_result.png'>
 <img src='tree_plot_result.png'>
 
 
