@@ -101,7 +101,7 @@ plt.show()
 
 Dengan begitu, kalian akan mendapatkan output sebagai berikut:
 
-<img src='tree_report_result.png'>
+<img src='tree_report_result.jpg'>
 <img src='tree_plot_result.png'>
 
 
