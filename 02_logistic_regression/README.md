@@ -34,7 +34,7 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 ```
-Kalau pada saat pembuatan model linear regression kita menggunakan $$R^2$$ Score, maka di sini kita akan menggunakan```accuracy_score```.
+Kalau pada saat pembuatan model linear regression kita menggunakan $$R^2$$ Score, maka di sini kita akan menggunakan```accuracy_score()```.
 
 2. Selanjutnya, kita akan memuat data yang sebelumnya menjadi pembahasan kita.
 ```
