@@ -21,7 +21,7 @@ Kita ambil contoh data sederhana seperti berikut:
 | 10 | 1 |
 | 7.5 | 1 |
 
-Kalau kita perhatikan kembali terhadap data tersebut, kita dapat mengetahui bahwa data X yang semisalnya memiliki nilai di bawah 0, maka ia akan memiliki label 0. Jika lebih dari dan sama dengan 0, maka ia akan berlabel 1. Singkatnya, jika nilai X negatif labelnya 0 dan jika nilai X positif atau 0 labelnya 1.
+Kalau kita perhatikan kembali terhadap data tersebut, kita dapat mengetahui bahwa data $$X$$ yang semisalnya memiliki nilai di bawah 0, maka ia akan memiliki label 0. Jika lebih dari dan sama dengan 0, maka ia akan berlabel 1. Singkatnya, jika nilai $$X$$ negatif labelnya 0 dan jika nilai $$X$$ positif atau 0 labelnya 1.
 
 ## 2. Penerapan Logistic Regression dengan Python dan Scikit-learn
 
