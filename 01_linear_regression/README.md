@@ -93,7 +93,7 @@ model.fit(X, y)
 # Melakukan prediksi terhadap data latih
 y_pred = model.predict(X)
 
-# Mendapatkan akurasi $$R^2$$
+# Mendapatkan akurasi R^2
 r2 = r2_score(y, y_pred)
 
 # Menampilkan akurasi
