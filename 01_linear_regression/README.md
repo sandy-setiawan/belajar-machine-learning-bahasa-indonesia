@@ -139,3 +139,7 @@ silakan berikan komentar terlebih dahulu pada 6 baris terakhir dengan tanda paga
 data latih (dengan scatter), hingga garis modelnya.
 7. Selanjutnya, pada tahap akhir kita dapat melakukan prediksi dengan data baru, di mana data baru tersebut akan disubstitusikan
 ke persamaan regresi yang baru.
+
+Berikut adalah hasil plotting-nya:
+
+<img src='lr_result.png'>
