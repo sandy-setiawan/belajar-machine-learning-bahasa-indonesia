@@ -66,8 +66,9 @@ print(f'Akurasi Model: {accuracy}')
 new_data = np.array([-12, 12]).reshape(-1, 1)
 print(model.predict(new_data))
 ```
+<br>
 
-Berikut adalah kode lengkapnya:
+Berikut adalah kode program lengkapnya:
 
 ```
 # Import Library yang diperlukan
