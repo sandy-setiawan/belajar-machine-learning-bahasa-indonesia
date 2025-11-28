@@ -69,7 +69,7 @@ model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 ```
 
-4. Langkah keempat, untuk mengetahui apakah model overfitting atau underfitting, kita harus membuat prediksi terhadap data latih dan juga data uji. Sehingga, nanti dapat dibuat ```classification_report()``` untuk data uji dan data latih.
+4. Langkah keempat, untuk mengetahui apakah model overfitting atau underfitting, kita harus membuat prediksi terhadap data latih dan juga data uji. Sehingga, nanti dapat dibuat ```classification_report()``` untuk data latih dan data uji.
 ```
 # Mengukur akurasi model untuk data uji dan data latih
 y_train_pred = model.predict(X_train)
