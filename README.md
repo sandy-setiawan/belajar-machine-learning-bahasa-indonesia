@@ -11,6 +11,5 @@ Akan ada beberapa bahasan di tutorial Machine Learning ini, yaitu:
 6. Random Forest (Classification)
 7. Naive Bayes (Classification)
 8. K-Nearest Neighbors (Classification)
-9. Gradient Boosting Classification
-10. Simple Regression Artificial Neural Network (TensorFlow)
-11. Simple Classification Artificial Neural Network (TensorFlow)
+9. Simple Regression Artificial Neural Network (TensorFlow)
+10. Simple Classification Artificial Neural Network (TensorFlow)
