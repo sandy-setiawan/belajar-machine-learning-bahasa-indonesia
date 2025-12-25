@@ -14,7 +14,7 @@ Akan ada beberapa bahasan di tutorial Machine Learning ini, yaitu:
 9. Simple Regression Artificial Neural Network (TensorFlow)
 10. Simple Classification Artificial Neural Network (TensorFlow)
 
-<br>
+<hr>
 
 Repository ini akan menyajikan tutorial machine learning yang membahas berbagai macam algoritma machine learning yang umum dipakai.
 
@@ -32,6 +32,6 @@ Pada dasarnya, project machine learning bersifat template—artinnya, setiap tut
 
 Untuk nomor 3, 4, 5, dan 6, tidak akan saya bahas. Kenapa? Karena esensi dari repository ini adalah hanya membahas penerapan algoritma machine learning-nya saja. Sehingga, mungkin ke depannya keempat nomor tersebut akan saya buat terpisah.
 
-<br>
+<hr>
 
 Terima kasih. Selamat belajar! Salam Engineer!
